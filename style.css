@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,400&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: darkslategray;
+    font-family: "roboto", sans-serif; 
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    align-items: center;
+    height: 100VH;
+    overflow: hidden;    
+}
+#PIN{
+    margin: 3px;
+}
+#keypad{
+    width: 200px;
+    height: 300px;
+    border-style:solid;
+    border-color: black;
+    margin: 5px;
+    padding: 3px;
+}
+
+.keypad{
+    width: 45px; 
+    height: 45px;
+    margin: 4px;
+}
+.large_key{
+    width: 74px; 
+    height: 45px;
+    margin: 4px;
+}
+#text_box{
+    inline-size: min-content;
+    width: 200px;
+    height: 150px;
+    background-color: grey;
+    margin: 3px;
+    padding: 3px;
+    word-wrap: break-word;
+    overflow:auto;
+    border-style:ridge;
+}
+#ATM_text_box{
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 200px;
+    height: 35px;
+    box-sizing: border-box;
+    font-size: 14px;
+    overflow: hidden;
+}
+#ATM_text_box:hover {
+    border: 1px solid #999;
+  }
+#ATM_text_box:active {
+    border: 1px solid #666;
+  }
+
+#reset{
+    position:absolute;
+    top:10px;
+    left:10px;
+}
+  
+
+
